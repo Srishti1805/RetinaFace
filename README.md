@@ -15,12 +15,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Step 4A: Run on images
+## Step 4: Run on images
 ```
 python image.py --image-path <full-image-path>
-```
-
-## Step 4B: Run on videos
-```
-python video.py
 ```
