@@ -12,7 +12,9 @@ def main():
     args = parser.parse_args()
 
     # Read the image using the provided image_path
-    image = cv2.imread(args.image_path)
+    path = rf"{args.image_path}" 
+    print(path)
+    image = cv2.imread(path)
 
     # Detect faces using RetinaFace
     faces = RetinaFace.detect_faces(image)

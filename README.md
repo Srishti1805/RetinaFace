@@ -17,5 +17,5 @@ pip install -r requirements.txt
 
 ## Step 4: Run on images
 ```
-python image.py --image-path <full-image-path>
+python image.py --image-path <full-image_path>
 ```
